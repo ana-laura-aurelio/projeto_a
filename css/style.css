@@ -1,0 +1,50 @@
+header {
+    background: #a3384a;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#logo {
+    width: 150px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding: 0px 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font: size 1.3em;
+    padding: 8px 12px;
+}
+
+header img {
+    width: 150px;
+}
+
+#banner {
+    background: url(../img/Salão\ da\ Marisa.jpg) no-repeat center center ;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+}
+body{
+    margin: 0;
+}
+#botao{
+    text-align: center;
+}
