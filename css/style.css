@@ -1,7 +1,8 @@
 header {
     background: #a3384a;
     padding: 5px;
-    border-radius: 5px;
+    font-family: "Fonte-padrao";
+
 }
 
 #logo {
@@ -36,15 +37,36 @@ header img {
 }
 
 #banner {
-    background: url(../img/Salão\ da\ Marisa.png) no-repeat center center ;
+    background: url(../img/Salão\ da\ Marisa.png) no-repeat center center;
     background-size: cover;
     height: 85vh;
     display: flex;
-    align-items: center;
+    margin-top: 1vh;
 }
-body{
+
+body {
     margin: 0;
 }
-#botao{
+
+#sobre-local {
     text-align: center;
+    font-family: "Fonte-padrao";
+}
+
+@font-face {
+    font-family: "Fonte-padrao";
+    src: url(../fonts/abeatbyKaiRegular.otf);
+}
+
+#botao-cafe {
+    padding: 8px 10px;
+    border-radius: 5px;
+    background: #ec8797;
+    color: #45000c;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+
+
 }
